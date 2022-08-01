@@ -1,12 +1,89 @@
+Vue.component('saludo',{
+    template:`
+        <div>
+            <h1>{{saludo}}</h1>
+            <h3>{{saludo2}}</h3>
+        </div>
+    `,
+    data(){
+        return{
+            saludo:'Pueblaaaa',
+            saludo2:'Hola mi gente'
+        }
+    }
+})
+
 const app = new Vue({
      el:'#app',
-    data:{
-        fondo:'bg-warning',
-        color:false
-    },
-    methods:{
 
-    }
+
+
+
+
+
+
+
+
+
+
+    
+    // data:{
+    //     titulo:'Hollaaa'
+    // },
+    // beforeCreate(){
+    //   console.log('Genteee')  
+    // },
+    // create(){
+    //     console.log('create')  
+    // },
+    // beforeMount(){
+    //     console.log('beforeMount')  
+    // },
+    // mounted(){
+    //     console.log('mounted') 
+    // },
+    // updated(){
+    //     console.log('updated') 
+    // },
+    // beforeDestroy(){
+    //     console.log('updated') 
+    // },
+    // destroyed(){
+    //     console.log('destroyed')
+    // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    //  data:{
+    //     variable:'hola',
+    //     contador:null
+    // },
+    // methods:{
+
+    // },
+    // computed:{
+    //     invertido(){
+    //          return this.variable.split('').reverse().join();
+    //     },
+    //     color(){
+    //         return{
+    //             'bg-success' : this.contador <= 10,
+    //             'bg-warning' : this.contador > 10 && this.contador <=30,
+    //             'bg-dark' : this.contador > 30 && this.contador <=90,
+    //         }
+    //     }
+    // }
 
      
 
